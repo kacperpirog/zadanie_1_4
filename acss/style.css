@@ -1,0 +1,30 @@
+/* Global */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 500px;
+    padding: 30px 20px;
+    margin: 0 auto;  
+	
+}
+.text_sonng {
+	text-align: left;
+    height: 500px;
+	display: block;
+	text-align: left;
+}
+
+.title {
+	text-align: left;
+	font-style: bold;
+	font-size: 40px;
+}
+.title-autor{
+	text-align: left;
+	font-style: italic;
+	font-size: 10px;
+
+}
