@@ -1,2 +1,20 @@
 npm i autoprefixer-cli
+stosowanie:
+autoprefixer-cli -o main.prefixed.css main.css
+
 npm i html-validate
+Stosowanie:
+html-validate FILENAME.. <- przysyała błędy do pliku
+
+towrzenie .htmlvalidate.json przklejenie kodu 
+{
+  "extends": [
+    "htmlvalidate:recommended"
+  ],
+ 
+  "rules": {
+    "close-order": "error"
+    "void": ["warn", {"style": "omit"}]
+  }
+}
+
